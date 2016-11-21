@@ -14,6 +14,7 @@
 		A16234871DD154FB00E1191D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16234851DD154FB00E1191D /* LaunchScreen.storyboard */; };
 		A162348F1DDA8C2B00E1191D /* ThemingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A162348E1DDA8C2B00E1191D /* ThemingViewController.swift */; };
 		A16234911DE0BB2C00E1191D /* MiscModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16234901DE0BB2C00E1191D /* MiscModalViewController.swift */; };
+		A16234931DE0C07600E1191D /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16234921DE0C07600E1191D /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		A16234861DD154FB00E1191D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16234881DD154FB00E1191D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A162348E1DDA8C2B00E1191D /* ThemingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemingViewController.swift; sourceTree = "<group>"; };
-		A16234901DE0BB2C00E1191D /* MiscModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscModalViewController.swift; sourceTree = "<group>"; };
+		A16234901DE0BB2C00E1191D /* MiscModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MiscModalViewController.swift; path = ../MiscModalViewController.swift; sourceTree = "<group>"; };
+		A16234921DE0C07600E1191D /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieViewController.swift; path = ../MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,6 @@
 		A16234701DD154FB00E1191D = {
 			isa = PBXGroup;
 			children = (
-				A16234901DE0BB2C00E1191D /* MiscModalViewController.swift */,
 				A162347B1DD154FB00E1191D /* SampleApp */,
 				A162347A1DD154FB00E1191D /* Products */,
 			);
@@ -59,6 +60,8 @@
 		A162347B1DD154FB00E1191D /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				A16234901DE0BB2C00E1191D /* MiscModalViewController.swift */,
+				A16234921DE0C07600E1191D /* MovieViewController.swift */,
 				A162347C1DD154FB00E1191D /* AppDelegate.swift */,
 				A162347E1DD154FB00E1191D /* ViewController.swift */,
 				A16234801DD154FB00E1191D /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16234911DE0BB2C00E1191D /* MiscModalViewController.swift in Sources */,
+				A16234931DE0C07600E1191D /* MovieViewController.swift in Sources */,
 				A162347F1DD154FB00E1191D /* ViewController.swift in Sources */,
 				A162348F1DDA8C2B00E1191D /* ThemingViewController.swift in Sources */,
 				A162347D1DD154FB00E1191D /* AppDelegate.swift in Sources */,
@@ -305,6 +309,7 @@
 				A162348D1DD154FB00E1191D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
